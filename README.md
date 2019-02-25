@@ -2,7 +2,7 @@
 
 > My unreal Nuxt.js project
 
-## Build Setup
+### Build Setup
 
 ``` bash
 # install dependencies
@@ -18,6 +18,22 @@ $ yarn start
 # generate static project
 $ yarn run generate
 ```
+
+### Deploy to Firebase hosting
+Install Firebase tools:
+`npm install -g firebase-tools`
+
+Sign in to Google:
+`firebase login`
+
+Initiate your project:
+`firebase init`
+
+Add your static files to your deploy directory (the default is public)
+
+Deploy your website:
+`firebase use --add`
+`firebase deploy`
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 # nuxt-firebase-hosting
