@@ -21,7 +21,9 @@ $ yarn run generate
 
 ### Deploy to Firebase hosting
 Install Firebase tools:
-```npm install -g firebase-tools```
+``` bash
+npm install -g firebase-tools
+```
 
 Sign in to Google:
 `firebase login`
