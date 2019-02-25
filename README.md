@@ -19,6 +19,9 @@ $ yarn start
 $ yarn run generate
 ```
 
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+# nuxt-firebase-hosting
+
 ### Deploy to Firebase hosting
 Install Firebase tools:
 ``` bash
@@ -26,16 +29,20 @@ npm install -g firebase-tools
 ```
 
 Sign in to Google:
-`firebase login`
+``` bash
+firebase login
+```
 
 Initiate your project:
-`firebase init`
+``` bash
+firebase init
+```
 
 Add your static files to your deploy directory (the default is public)
 
 Deploy your website:
-`firebase use --add`
-`firebase deploy`
+``` bash
+firebase use --add
+firebase deploy
+```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
-# nuxt-firebase-hosting
